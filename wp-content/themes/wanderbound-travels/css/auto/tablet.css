@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Tablet Style */
+
+@media screen
+and (max-width: 1180px) {
+
+/*============ Page/Post =================*/
+
+	.show-tablet {
+		display: block;
+	}
+	.hide-tablet {
+		display: none;
+	}
+	
+}
+
+/*============ Portrait =================*/
+
+@media all
+and (min-width: 480px)
+and (max-width: 768px)
+and (orientation: portrait){
+	
+/*============ Structure =================*/
+	
+}
+
+/*============ Landscape =================*/
+
+@media all
+and (max-width: 1180px)
+and (orientation: landscape) {
+	
+/*============ Structure =================*/
+	
+	.hide-landscape {
+		display: none;
+	}
+	.show-landscape {
+		display: block;
+	}
+}

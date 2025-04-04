@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*Base Style*/
+
+/*============ Based on a max screen size of 1920px =================*/
+
+/*============ Stucture =================*/
+
+	/* ===== Hidden Items ===== */
+
+	.site-header .title-area,
+	.post-edit-link,
+	.entry-header,
+	aside.sidebar,
+	.show-mobile,
+	.hide {
+		display: none;
+	}
+
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+	body .site-container {
+		background-color:transparent;
+		max-width: 100%;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+	body .site-inner {
+		flex: 1;
+	}
+	body .site-inner > div {
+		margin: 0 auto;
+		max-width: 100%;
+		position: relative;
+		width: 1440px;
+	}
+	.show-hide{
+		cursor: pointer;
+	}
+	figure.wp-block-image {
+		margin: 0px;
+	}
+	hr {
+		border-color: inherit;
+	}
+
+/*============ Tweaks for laptops =================*/
+
+@media all 
+and (max-device-width: 1440px) {
+	#wrap .wrap,
+	#wrap > #inner > div,
+	body .row,
+	body .wp-block-columns,
+	.entry-content {
+		max-width: 1095px;
+		margin: 0 auto;
+	}
+}
+
+@media all 
+and (max-device-width: 1095px) {
+	#wrap .wrap,
+	#wrap > #inner > div,
+	body .row,
+	body .wp-block-columns,
+	.entry-content {
+		max-width: 100%;
+	}
+}
+
+/*============ social =================*/
+
+
+/*============ Header =================*/
+
+#header .wrap {
+	position: relative;
+	width: 100%;
+}
+#header #logo {
+	display: inline-block;
+}
+
+/*============ Forms =================*/
+
+	/*============ Corrects Spacing Between Fields when Using Hidden Labels =================*/
+
+	.gform_wrapper li.hidden_label input,
+	body .gform_wrapper .top_label div.ginput_container {
+		margin-top: 0px;
+	}
+	.gform_wrapper .gform_footer {
+		text-align: center;
+	}
+	body .gform_wrapper {
+		margin: 0px;
+	}
+	body .gform_wrapper ul li.gfield {
+		margin-top: 0px !important;
+	}
+
+/*============ Footer =================*/
+
+.gototop {
+	display: none;
+}
+
+/*============ Page/Post =================*/

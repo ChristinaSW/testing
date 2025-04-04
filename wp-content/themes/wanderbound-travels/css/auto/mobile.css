@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+@media only screen 
+and (max-width: 480px) {
+		
+/*============ Structure =================*/
+	  
+	.show-mobile {
+		display: block;
+	}
+	.show-mobile-inline {
+		display: inline-block;
+	}
+	.hide-mobile,
+	.menu-mobile-nav-container,
+	.menu-main-nav-container {
+		display: none;
+	}
+	.site-inner,
+	.site-footer {
+		padding: 0 20px;
+	}
+
+/*============ Header =================*/
+
+/*============ Footer =================*/
+
+/*============ Page/Post =================*/
+
+}
+
+/*============ Portrait =================*/
+
+@media only screen 
+and (min-device-width: 370px) 
+and (max-device-width: 380px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+	
+
+/*============ Page/Post =================*/
+
+}
+
+/*============ Landscape =================*/
+
+@media all 
+and (max-width: 767px)
+and (orientation: landscape) {
+	
+/*============ Page/Post =================*/
+
+}

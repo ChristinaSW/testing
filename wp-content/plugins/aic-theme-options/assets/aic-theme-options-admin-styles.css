@@ -1,0 +1,72 @@
+/* Expand / Collapse Buttons */
+
+.repeater-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Company Information Tab */
+
+#logo-message {
+	text-align: center;
+}
+
+/* Save Settings button styling */
+
+   .acf-settings-wrap #submitdiv .postbox-header {
+        display: none;
+    }
+    .acf-settings-wrap #poststuff #post-body.columns-2 #side-sortables,
+    .acf-settings-wrap #post-body.columns-2 #postbox-container-1 {
+        width: unset;
+    }
+    .acf-settings-wrap #post-body.columns-2 #postbox-container-1 {
+        float: none;
+        display: inline-block;
+    }
+    .acf-settings-wrap #submitdiv {
+        border: none;
+        background: none;
+        box-shadow: none;
+    }
+    .acf-settings-wrap #submitdiv #major-publishing-actions  {
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+
+/* Tutorials styling */
+
+.video-list-wrap .col {
+    display: flex;
+    flex-direction: column;
+}
+.tutorial a {
+    text-decoration: none;
+    color: #000;
+}
+.tutorial a img {
+    border: 2px solid;
+    max-width: 200px;
+    width: 100%;
+}
+.tutorial a p {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/* Support Ticket */
+
+.toplevel_page_send-a-ticket .acf-settings-wrap #post-body.columns-2 #postbox-container-1,
+.toplevel_page_send-a-ticket #postbox-container-2 .postbox-header {
+    display: none;
+}
+.toplevel_page_send-a-ticket #poststuff #post-body.columns-2 {
+    margin-right: 0;
+}
+.toplevel_page_send-a-ticket #acf-group_67d8386cb03f5.postbox {
+    border: none;
+    background: transparent;
+}

@@ -29,7 +29,7 @@ define( 'DB_USER', 'ubuvxkmik2gzc' );
 define( 'DB_PASSWORD', 'lykrjl29qdco' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -90,6 +90,7 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy publishing. */
 

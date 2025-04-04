@@ -1,0 +1,103 @@
+	#nav-trigger {
+		display: none;
+	}
+	
+/*============ Upper Right Menu =================*/
+
+/*============ Main Menu =================*/
+
+nav.menu-container {
+	width: 720px;
+	max-width: 100%;
+	background-color: #333;
+	padding: 12px;
+	position: relative;
+}
+.genesis-nav-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.site-header .genesis-nav-menu a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.site-header .genesis-nav-menu a:hover,
+.site-header .genesis-nav-menu .current-menu-item a {
+	color: #ffcc00;
+}
+
+/*============ Sub Menu =================*/
+
+.genesis-nav-menu .sub-menu {
+	background-color: transparent;
+	padding: 20px 0 0;
+	list-style-type: none;
+	display: none;
+	position: absolute;
+	top: 29px;
+	z-index: 7;
+}
+.genesis-nav-menu .sub-menu li {
+	padding: 5px 12px;
+	background-color: #333;
+}
+.genesis-nav-menu .sub-menu li a {
+	text-transform: capitalize;
+}
+
+/*============ Sub Sub Menu =================*/
+
+.genesis-nav-menu .sub-menu .sub-menu {
+	margin: -56px 0 0 209px;
+}
+
+/*============ Footer Menu =================*/
+
+/*============ Mobile Menu =================*/
+
+@media only screen and (max-width: 1180px) {
+	
+	#nav-trigger {
+		background-image: url();
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: 30px auto;
+		display: inline-block;
+		height: 31px;
+		max-width: 50px;
+		width: 47px;
+		vertical-align: middle;
+		position: absolute;
+		top: 10px;
+		right: 0px;
+		z-index: 99999;
+	}
+	#jPanelMenu-menu {
+		list-style-type: none;
+		padding: 50px 20px;
+		background-color: #e6e7e8;
+		border-left: 2px solid #000000;
+	}
+	.menu-main-nav-container ul {
+		vertical-align: top;
+	}
+	#menu-main-nav > li {
+		margin-bottom: 5px;
+	}
+	#jPanelMenu-menu li {
+		padding-bottom: 15px;
+	}
+	#jPanelMenu-menu a {
+		color: #e80f2c;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+/*============ Footer Menu =================*/
+	
+}

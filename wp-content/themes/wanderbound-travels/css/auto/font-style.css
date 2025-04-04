@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*Font Style*/
+
+/* Put Google Font @import code here */
+
+/*============ Structure =================*/
+
+body,
+body > div {
+	font-family: /*font-family*/;
+	font-weight: 400;
+	font-size: 16px;
+}
+p {
+	letter-spacing: 0.015em;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+
+/*============ Headings =================*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: /*font-family*/;
+}
+h1 {
+	font-size: /*h1*/;  /*px*/
+}
+h2 {
+	font-size: /*h2*/; /*px*/
+}
+h3 {
+	font-size: /*h3*/; /*px*/
+}
+h4 {
+	font-size: /*h4*/; /*20px*/
+}
+
+/*============ Weights =================*/
+
+.medium {
+	font-weight: 500;
+}
+.bold {
+	font-weight: 700;
+}
+.extra-bold {
+	font-weight: 800;
+}
+
+/*============ Colors =================*/
+
+
+/*============ Buttons =================*/
+
+.btn,
+.gform_button {
+	color: ;
+	background-color: ;
+	padding: 12px 17px;
+	font-family: inherit;
+	font-size:  !important;
+	font-weight: ;
+	border-radius: 0px;
+}
+
+/*============ Links =================*/
+
+a,
+a:hover {
+	text-decoration: none;
+	color: ;
+}
+
+/*============ Alignments =================*/
+
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+.nowrap {
+	white-space: nowrap;
+}
+
+/*============ Transformations =================*/
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capital {
+	text-transform: capitalize;
+}
+
+/*============ Other =================*/
